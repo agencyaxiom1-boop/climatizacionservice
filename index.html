@@ -21,12 +21,22 @@
     <meta name="keywords" content="mantenimiento de aire acondicionado en lima, instalacion de aire acondicionado lima, reparacion de aire acondicionado, servicio tecnico hvac lima, climatizacion service">
     <meta name="robots" content="index, follow">
     
-    <!-- Open Graph -->
-    <meta property="og:title" content="Mantenimiento y Reparación Aire Acondicionado Lima | Service">
-    <meta property="og:description" content="Servicio de mantenimiento, instalación y reparación de equipos de aire acondicionado en Lima. Soluciones profesionales residenciales y comerciales.">
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://climatizacionservice.com/">
+    <meta property="og:title" content="Mantenimiento y Reparación Aire Acondicionado Lima | Climatización Service">
+    <meta property="og:description" content="Servicio de mantenimiento, instalación y reparación de equipos de aire acondicionado en Lima. Soluciones profesionales residenciales y comerciales.">
     <meta property="og:image" content="https://climatizacionservice.com/assets/img/hero-foto.png">
+    <meta property="og:image:secure_url" content="https://climatizacionservice.com/assets/img/hero-foto.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mantenimiento y Reparación Aire Acondicionado Lima | Climatización Service">
+    <meta name="twitter:description" content="Servicio de mantenimiento, instalación y reparación de equipos de aire acondicionado en Lima.">
+    <meta name="twitter:image" content="https://climatizacionservice.com/assets/img/hero-foto.png">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -59,42 +69,91 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "HVACBusiness",
-      "name": "Climatización Service E.I.R.L.",
-      "image": "https://climatizacionservice.com/assets/img/hero-foto.png",
-      "@id": "https://climatizacionservice.com",
-      "url": "https://climatizacionservice.com",
-      "telephone": "+51921396660",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "AV. los Alamos 1576",
-        "addressLocality": "Villa El Salvador",
-        "addressRegion": "Lima",
-        "postalCode": "15831",
-        "addressCountry": "PE"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": -12.216,
-        "longitude": -76.933
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday"
-        ],
-        "opens": "08:00",
-        "closes": "17:30"
-      },
-      "sameAs": [
-        "https://www.instagram.com/climatizacion_service",
-        "https://www.facebook.com/share/1D8YWfEWvf/"
+      "@graph": [
+        {
+          "@type": "HVACBusiness",
+          "name": "Climatización Service E.I.R.L.",
+          "image": "https://climatizacionservice.com/assets/img/hero-foto.png",
+          "@id": "https://climatizacionservice.com",
+          "url": "https://climatizacionservice.com",
+          "telephone": "+51921396660",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "AV. los Alamos 1576",
+            "addressLocality": "Villa El Salvador",
+            "addressRegion": "Lima",
+            "postalCode": "15831",
+            "addressCountry": "PE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -12.216,
+            "longitude": -76.933
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "08:00",
+            "closes": "17:30"
+          },
+          "sameAs": [
+            "https://www.instagram.com/climatizacion_service",
+            "https://www.facebook.com/share/1D8YWfEWvf/"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cada cuánto tiempo se debe hacer mantenimiento a un aire acondicionado?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Para departamentos u hogares se recomienda un mantenimiento preventivo cada 6 meses. En oficinas, comercios o locales con alto uso continuo, lo ideal es realizarlo cada 3 a 4 meses para evitar consumo excesivo de luz y fallas operativas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué incluye el servicio de mantenimiento preventivo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incluye la limpieza profunda y desinfección de filtros, evaporador y condensador, revisión de presión del gas refrigerante, verificación de conexiones eléctricas, ajuste de pernos/soportes y desobstrucción de la línea de drenaje."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Qué zonas de Lima atienden y cuál es el tiempo de respuesta?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brindamos cobertura técnica en todo Lima Metropolitana (con base en Villa El Salvador). Coordinamos visitas técnicas y cotizaciones en menos de 24 horas a través de WhatsApp."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Ofrecen garantía por sus trabajos de instalación o reparación?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, todos nuestros servicios de instalación, reparación y cambio de repuestos cuentan con garantía técnica. Entregamos comprobante oficial (factura/boleta) como empresa formalmente registrada."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo puedo solicitar una cotización rápida?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Solo necesitas enviarnos un mensaje por WhatsApp detallando el tipo de servicio que necesitas (instalación, mantenimiento o falla), la marca/capacidad del equipo si la conoces y tu ubicación. Te responderemos al instante."
+              }
+            }
+          ]
+        }
       ]
     }
     </script>
@@ -368,6 +427,73 @@
                     </div>
                 </div>
             </section>
+
+            <!-- SECCIÓN: PREGUNTAS FRECUENTES (FAQ) -->
+            <section class="py-20 bg-white border-t border-slate-200 text-slate-900">
+                <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">Preguntas de aire acondicionado en Lima | Climatización Service</h2>
+                        <p class="text-slate-600 text-sm mt-2">Todo lo que necesitas saber antes de contratar nuestro servicio técnico.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- FAQ Item 1 -->
+                        <div class="faq-item border border-slate-200 bg-slate-50/80 rounded-2xl overflow-hidden transition-all duration-300">
+                            <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-sky-600 transition-colors">
+                                <span>¿Cada cuánto tiempo se debe hacer mantenimiento a un aire acondicionado?</span>
+                                <i class="fa-solid fa-chevron-down text-sky-600 transition-transform duration-300"></i>
+                            </button>
+                            <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-200/80 pt-3">
+                                Para departamentos u hogares se recomienda un mantenimiento preventivo <strong>cada 6 meses</strong>. En oficinas, comercios o locales con alto uso continuo, lo ideal es realizarlo <strong>cada 3 a 4 meses</strong> para evitar consumo excesivo de luz y fallas operativas.
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="faq-item border border-slate-200 bg-slate-50/80 rounded-2xl overflow-hidden transition-all duration-300">
+                            <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-sky-600 transition-colors">
+                                <span>¿Qué incluye el servicio de mantenimiento preventivo?</span>
+                                <i class="fa-solid fa-chevron-down text-sky-600 transition-transform duration-300"></i>
+                            </button>
+                            <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-200/80 pt-3">
+                                Incluye la limpieza profunda y desinfección de filtros, evaporador y condensador, revisión de presión del gas refrigerante, verificación de conexiones eléctricas, ajuste de pernos/soportes y desobstrucción de la línea de drenaje.
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="faq-item border border-slate-200 bg-slate-50/80 rounded-2xl overflow-hidden transition-all duration-300">
+                            <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-sky-600 transition-colors">
+                                <span>¿Qué zonas de Lima atienden y cuál es el tiempo de respuesta?</span>
+                                <i class="fa-solid fa-chevron-down text-sky-600 transition-transform duration-300"></i>
+                            </button>
+                            <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-200/80 pt-3">
+                                Brindamos cobertura técnica en <strong>todo Lima Metropolitana</strong> (con base en Villa El Salvador). Coordinamos visitas técnicas y cotizaciones en menos de 24 horas a través de WhatsApp.
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="faq-item border border-slate-200 bg-slate-50/80 rounded-2xl overflow-hidden transition-all duration-300">
+                            <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-sky-600 transition-colors">
+                                <span>¿Ofrecen garantía por sus trabajos de instalación o reparación?</span>
+                                <i class="fa-solid fa-chevron-down text-sky-600 transition-transform duration-300"></i>
+                            </button>
+                            <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-200/80 pt-3">
+                                Sí, todos nuestros servicios de instalación, reparación y cambio de repuestos cuentan con <strong>garantía técnica</strong>. Entregamos comprobante oficial (factura/boleta) como empresa formalmente registrada.
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 5 -->
+                        <div class="faq-item border border-slate-200 bg-slate-50/80 rounded-2xl overflow-hidden transition-all duration-300">
+                            <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-sky-600 transition-colors">
+                                <span>¿Cómo puedo solicitar una cotización rápida?</span>
+                                <i class="fa-solid fa-chevron-down text-sky-600 transition-transform duration-300"></i>
+                            </button>
+                            <div class="faq-content hidden px-6 pb-5 text-slate-600 text-sm leading-relaxed border-t border-slate-200/80 pt-3">
+                                Solo necesitas enviarnos un mensaje por WhatsApp detallando el tipo de servicio que necesitas (instalación, mantenimiento o falla), la marca/capacidad del equipo si la conoces y tu ubicación. Te responderemos al instante.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     
     <!-- Footer Section -->
@@ -438,13 +564,26 @@
         <i class="fa-brands fa-whatsapp text-2xl"></i>
     </a>
 
-    <!-- SCRIPT PARA ABRIR / CERRAR MENÚ MÓVIL -->
+    <!-- SCRIPTS -->
     <script>
+        // Script Menú Móvil
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
 
         btn.addEventListener('click', () => {
             menu.classList.toggle('hidden');
+        });
+
+        // Script Acordeón FAQ
+        document.querySelectorAll('.faq-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle actual
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
         });
     </script>
 </body>
